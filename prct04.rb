@@ -1,4 +1,4 @@
-#!/usr/local/ruby/bin/ruby
+#!/usr/local/rvm/rubies/ruby-2.0.0-p247/bin/ruby
 
 puts "Suma y multiplicacion de dos matrices cuadradas\n"
 
@@ -34,3 +34,53 @@ for i in (0..2)
                 mul[i][j] = temp
         end
 end
+
+# Imprimimos la matriz X
+puts "\n Matriz X:\n"
+for i in (0...3)
+        print " "
+        for j in (0..2)
+                print x[i][j]
+                print " "
+        end
+        puts "\n"
+end
+puts "-------------------"
+
+
+# Imprimimos la matriz Y
+puts "Matriz Y:\n"
+for i in (0...3)
+        print " "
+        for j in (0..2)
+                print y[i][j]
+                print " "
+        end
+        puts "\n"
+end
+puts "-------------------"
+
+# Imprimimos la matriz Suma 
+puts "Suma:\n"
+for i in (0...3)
+        print " "
+        for j in (0..2)
+                print sum[i][j]
+                print " "
+        end
+        puts "\n"
+end
+
+puts "-------------------"
+
+# Imprimimos la matriz Muliplicación
+puts "Multiplicacion:\n"
+for i in (0...3)
+        print " "
+        for j in (0..2)
+                print mul[i][j]
+                print " "
+        end
+        puts "\n"
+end
+puts "--------------------"
